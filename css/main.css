@@ -1,0 +1,990 @@
+body {
+    background-color: #16171F !important;
+}
+
+a, a:focus, a:visited, a:link, a:active, a:hover  {
+    outline: 0 !important;
+    text-decoration: none !important;
+}
+
+button, button:focus, button:visited, button:link, button:active, button:hover  {
+    outline: 0 !important;
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none !important;
+}
+
+html {
+    overflow-y: scroll !important;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.modal {
+    background-color: #0d0f1b;
+    background-image: url("../images/graphic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+    /*min-width: 500px;*/
+    top: 12px;
+    border-radius: 10px;
+    border: 2px solid #d7e2f2;
+    overflow-y: hidden !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.modal-body {
+  margin-top: -30px;
+}
+
+.modal-open {
+    overflow: scroll;
+}
+
+.modal-info {
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+}
+
+.modal-quote {
+    color: #ecf0f1;
+    padding: 20px;
+    font-family: 'Quantico', sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    margin-top: 50px;
+    width: 424px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+#close {
+    background-image: url("../images/close.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-right: -10px;
+    margin-top: -12px;
+}
+
+.hidden .close {
+  visibility: visible !important;
+  display: block !important;
+}
+
+#centralize {
+    max-width: 562px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    position: relative;
+}
+
+.bg-size-md {
+    background-image: url("../images/TAbackground.svg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    position: absolute !important;
+    background-position: center;
+    width: 100%;
+    min-width: 320px;
+}
+
+.bg-size-xs {
+    background-image: url("../images/TAbackground.svg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+
+}
+
+.rectangle {
+    background-color: rgba(17, 19, 32, 0.8) !important;
+    border: 2px solid #d7e2f2;
+    margin-top: -2px;
+    min-height: 80px;
+    min-width: 320px;
+}
+
+.description {
+    color: #ecf0f1;
+    font-family: 'Quantico', sans-serif;
+    font-style: italic;
+}
+
+.brief {
+  margin-bottom: 32px !important;
+}
+
+ .header {
+     margin-top: 8px !important;
+     font-family: 'bpdotsplusbold', sans-serif !important;
+     color: #56cbf5 !important;
+     font-size: 30px;
+
+ }
+
+ .header2 {
+     font-family: 'Quantico', sans-serif;
+     font-style: italic;
+     font-size: 12vw;
+     color: #ecf0f1 !important;
+ }
+
+.portfolio-md {
+    color: #56cbf5;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Quantico', sans-serif;
+}
+
+.portfolio-xs {
+    color: #56cbf5;
+    padding: 20px;
+    text-align: center;;
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+}
+
+#motto {
+    text-align: center;
+    font-family: "bpdotsplusbold", sans-serif;
+    color: #56cbf5;
+    font-size: 26px;
+    word-spacing: -2px;
+}
+
+#social {
+  width: 545px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#social li {
+	padding-left: 0;
+}
+
+.share-buttons-title {
+  height: 50px;
+  width: auto;
+  margin-bottom: 4px;
+}
+
+.btn-download {
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	margin-top: 390px;
+	margin-left: -36px;
+	background-color: transparent;
+	border: solid #048219;
+  border-radius: 20px;
+	font-family: 'Quantico', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: #f2dede;
+  float: left;
+  padding: 2px 5px 2px 5px;
+}
+
+#games-collapse .collapse-body {
+  margin-bottom: 10px;
+}
+
+.collapse-header {
+    text-align: center !important;
+}
+
+.collapse-header button {
+    background-color: transparent !important;
+    border: transparent !important;
+    color: transparent !important;
+    text-align: center !important;
+}
+
+.col-md-6 {
+    padding: 0 !important;
+}
+
+.doodle {
+    height: 14em;
+    width: 300px;
+}
+
+.col-md-6 .left-text {
+    margin-left: -20px;
+    margin-right: 20px;
+    text-align: left;
+    color: #d7e2f2;
+}
+
+.col-md-6 .right-image {
+    position: absolute;
+    right: 0;
+}
+
+.col-md-6 .right-text {
+    margin-left: -20px !important;
+    text-align: right;
+    padding-right: 20px;
+    color: #d7e2f2;
+}
+
+.col-md-6 .left-image {
+    position: absolute;
+    top: 0;
+    margin-left: -40px;
+}
+
+.title {
+    background-image: url("../images/TAheader.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 500px 1000px;
+    width: auto;
+    height: 130px;
+    background-position: center;
+    margin-top: -4px;
+    margin-bottom: -18px;
+}
+
+.title2 {
+    background-image: url("../images/TALogo.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 337px 179px;
+    width: auto;
+    height: 180px;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+#about {
+    background-image: url("../images/about.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 338px 196px;
+    margin-right: 11px;
+    margin-top: 9px;
+}
+
+#games {
+    background-image: url("../images/games.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 264px 191px;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+#future {
+    background-image: url("../images/future.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 300px 196px;
+    margin-left: 10px;
+    margin-top: -20px
+}
+
+#contact {
+    background-image: url("../images/contact.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 300px 196px;
+    margin-left: 10px;
+}
+
+.facebook {
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+.modal-content {
+    background-color: #161622 !important;
+    color: #ffffff;
+    border: 1px solid #ffffff !important;
+}
+
+.modal-header {
+    margin-top: 22px;
+    margin-bottom: 30px;
+    padding: 0;
+    font-family: 'bpdotsplusbold', sans-serif !important;
+    color: #56cbf5 !important;
+    font-size: 40px;
+    border-bottom: none !important;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
+
+#future-header {
+  margin-top: -88px !important;
+}
+
+#contact-header {
+  margin-top: -88px !important;
+  padding-left: 20px;
+}
+
+#games-header {
+  margin-top: -68px !important;
+  padding-left: 20px;
+}
+
+.games-info {
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.tab-content {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#tabs-md {
+    background-color: transparent !important;
+    font-family: "bpdotsplusbold", sans-serif;
+    border: none;
+    padding-bottom: 40px;
+    width: 700px;
+    margin-top: -82px;
+    margin-left: -12px;
+}
+
+#tabs-xs {
+    background-color: transparent !important;
+    font-family: "bpdotsplusbold", sans-serif;
+    margin-top: -90px;
+    padding-bottom: 40px;
+    border: none;
+    margin-left: -30px;
+    margin-right: auto;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #ffffff !important;
+    cursor: default;
+    background-color: transparent;
+    border: none;
+}
+
+.tabs-md a {
+    font-size: 28px;
+    color: #56cbf5 !important;
+    border-right: 2px solid #d7e2f2 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: -20px;
+}
+
+#partners-tab-xs {
+    border-right: none !important;
+    margin-left: 5px;
+}
+
+#mission-tab-xs {
+    border-right: none !important;
+    margin-bottom: 15px;
+}
+
+.tabs-xs a {
+    font-size: 3vw;
+    border-right: 2px solid #d7e2f2 !important;
+    color: #56cbf5 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 44px;
+    text-align: center;
+}
+
+.tabs-xs a:hover {
+    background-color: transparent !important;
+    border: none;
+}
+
+#tabs-mobile .nav {
+  padding-left: 32px !important;
+}
+
+#about-tab-xs {
+  margin-left: -16px;
+}
+
+#vip-tab-xs {
+  margin-left: -28px;
+  margin-right: -12px;
+}
+
+#team-tab-xs {
+  margin-left: -36px;
+}
+
+.members-md {
+    height: 200px;
+    width: 200px;
+    list-style-type: none;
+    margin-left: -38px;
+    margin-top: 42px;
+}
+
+.members-xs {
+    height: 200px;
+    width: 200px;
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.member1 {
+    background-image: url("../images/jorge.svg");
+    background-repeat: no-repeat;
+}
+.member2 {
+    background-image: url("../images/andres.svg");
+    background-repeat: no-repeat;
+}
+
+.member3 {
+    background-image: url("../images/christian.svg");
+    background-repeat: no-repeat;
+}
+
+#member3-position {
+  margin-left: auto;
+  margin-right: auto;
+  width: 145px;
+}
+
+.member4 {
+    background-image: url("../images/odara.svg");
+    background-repeat: no-repeat;
+}
+
+.name {
+    color: #ecf0f1;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    font-style: bold;
+    font-size: 15px ;
+    margin-top: 5px;
+    /*margin-left: -20px;*/
+}
+
+.role {
+    color: #ecf0f1;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    font-size: 15px ;
+    margin-top: -5px;
+}
+
+.member-info-md {
+    color: #ecf0f1;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    font-size: 14px;
+    margin-left: -20px;
+}
+
+.member-info-xs {
+    color: #ecf0f1;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+#teamCarousel .carousel-inner {
+  min-height: 330px;
+}
+
+
+#tabs-mobile {
+    margin-top: 64px;
+    margin-bottom: -40px;
+}
+
+#games-modal {
+    margin-top: -88px !important;
+}
+
+#future-modal .modal-body h5 {
+    font-family: 'Quantico', sans-serif;
+    color: #ecf0f1 !important;
+
+}
+
+#future-modal p {
+    font-family: 'Quantico', sans-serif;
+    color: #ecf0f1 !important;
+
+}
+
+ .social-media-md {
+    width: 110px;
+    height: auto;
+}
+
+.social-media-xs {
+   width: 35px;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+#contact-buttons {
+    width: 620px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact-modal li {
+  margin-left: 5px;
+}
+
+.career-info {
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Quantico', sans-serif;
+    font-style: italic;
+}
+
+#careers {
+    margin-left: -22px;
+}
+
+#jobs {
+    margin-top: 148px;
+    margin-bottom: -15px;
+}
+
+.trophy {
+    background-image: url("../images/trophy.svg");
+    background-repeat: no-repeat;
+    height: 238px;
+    width: 238px;
+    margin-left: 60px;
+}
+
+.trophy-xs {
+    background-image: url("../images/trophy.svg");
+    background-repeat: no-repeat;
+    height: 238px;
+    width: 238px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hardwork {
+    background-image: url("../images/hardwork.svg");
+    background-repeat: no-repeat;
+    height: 300px;
+    /*margin-top: -10px;*/
+    margin: 18px -24px 0 12px;
+}
+
+.hardwork-xs {
+	background-image: url("../images/hardwork.svg");
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 230px;
+	margin: 28px -24px -64px 12px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 200px 200px;
+}
+
+#comercio-md {
+    background-color: white;
+    margin-left: -12px;
+}
+
+#mic-md {
+    background-color: white;
+    height: 106px;
+    width: auto;
+    margin-left: 20px;
+}
+
+#inter-md {
+    height: 202px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: -12px;
+}
+
+#four-arts-md {
+    height: 129px;
+    width: auto;
+    margin-top: 46px;
+    margin-left: 22px;
+}
+
+#avez-md {
+  background-color: white;
+  height: 106px;
+  width: auto;
+  margin-left: -186px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+#alliances {
+    padding-bottom: 38px;
+    padding-right: 30px;
+}
+
+#alliances img {
+  width: 232px;
+  height: auto;
+  margin-top: 38px;
+  border-radius: 2px;
+}
+
+#comercio-xs {
+    background-color: white;
+}
+
+#mic-xs {
+    background-color: white;
+}
+
+#avez-xs {
+  background-color: white;
+  margin-top: 36px;
+  padding: 10px;
+}
+
+.logo-tweaks {
+  border-radius: 5px;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+#games-list-md {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    margin-bottom: -34px;
+}
+
+.enlarged {
+  margin-top: 40px;
+  position: absolute;
+  }
+
+.games-list-md {
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 150px;
+    width: 275px;
+}
+
+.game-title {
+	margin-top: 28px;
+  margin-bottom: 44px;
+	font-family: 'Quantico', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.game-title-enlarged {
+	margin-top: 62px;
+	font-family: 'Quantico', sans-serif;
+	font-size: 25px;
+	color: white;
+	margin-left: 15px;
+  position: relative;
+}
+
+.game-description {
+  font-family: 'Quantico', sans-serif;
+	font-size: 15px;
+	color: white;
+  width: 678px;
+  text-align: left;
+}
+
+#game1 {
+    background-image: url("../images/PFbannersmall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#game1.enlarged  {
+  margin-top: 40px;
+  background-image: url('../images/PFbannerbig.png') !important;
+  background-repeat: no-repeat;
+  margin-left: -78px;
+  }
+
+#game2 {
+    background-color: black;
+    background-image: url("../images/bunnysmall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#game2.enlarged  {
+  margin-top: 40px;
+  background-image: url('../images/bunnybig.png') !important;
+  background-color: black;
+  background-repeat: no-repeat;
+  margin-left: -76px;
+  }
+
+.games-list-xs {
+    margin-top: 20px;
+    margin-bottom: 38px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+    width: 275px;
+}
+
+.game-description-xs {
+  font-family: 'Quantico', sans-serif;
+	font-size: 15px;
+	color: white;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+#game1-xs {
+    background-image: url("../images/PFbannersmall.png");
+}
+
+#game2-xs {
+  background-image: url("../images/bunnysmall.png");
+}
+
+#gamesCarousel {
+    min-height: 380px;
+    margin-bottom: 50px;
+}
+
+#gamesCarousel h3 {
+    text-align: center;
+}
+
+#gamesCarousel .carousel-inner {
+    overflow: visible !important;
+    position: absolute !important;
+}
+
+.coming-soon-xs {
+	font-family: 'Quantico', sans-serif;
+	font-size: 40px;
+	color: #86878d;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 84px;
+}
+
+.coming-soon-md {
+	font-family: 'Quantico', sans-serif;
+	font-size: 58px;
+	color: #86878d;
+	font-style: normal;
+	font-weight: bold;
+  text-align: center;
+}
+
+
+#contact-us {
+  text-align: center;
+}
+
+#contact-us li {
+  display: inline;
+  padding-right: 16px;
+}
+
+#social-btns {
+	/*width: 320px;*/
+	margin-left: auto;
+	margin-right: auto;
+  padding-left: 10px;
+}
+
+.email-md a {
+  font-size: 25px;
+  color: #0BDA2A !important;
+  padding-left: 28px;
+}
+
+.email-xs a {
+  font-size: 25px;
+  color: #0BDA2A !important;
+}
+
+
+.glyphicon-chevron-down {
+  color: white;
+  font-size: 40px;
+}
+
+.mature {
+	border: 2px solid white;
+	margin-top: 391px;
+	margin-bottom: -90px;
+	width: 30px;
+	font-color: white;
+	color: white;
+	margin-left: 243px;
+  padding-left: 1px;
+  position: relative;
+}
+
+.share-buttons {
+  margin-top: 384px;
+  float: left;
+  margin-left: 10px;
+}
+
+.share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+float: right;
+}
+
+#newsCarousel {
+  margin-top: 200px;
+  text-align: center;
+}
+
+/*#news1 {
+}
+
+#news2 {
+}
+
+#news3 {
+}
+
+#news4 {
+}*/
+
+.news-header {
+  font-family: 'Quantico', sans-serif;
+  font-style: normal;
+  color: #86878d;
+}
+
+.news-xs {
+  width: 350px;
+}
+
+.thanks {
+  color: #ecf0f1;
+  font-family: 'Quantico', sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#vip-xs {
+  text-align: center;
+  margin-left: -40px;
+}
+
+#vip-md {
+  text-align: center;
+  margin-left: -40px;
+  margin-top: -70px;
+}
+
+#vip-xs .special-thanks {
+  margin-bottom: 20px;
+}
+
+.special-thanks {
+  font-family: 'Quantico', sans-serif;
+  font-style: bold;
+  text-align: center;
+  color: #ecf0f1;
+  margin-left: 40px;
+  margin-bottom: 6px;
+}
+
+#christian {
+  margin-left: -6px;
+}
+
+#partners {
+  margin-top: -50px;
+}
+
+#cross-xs {
+  height: 22px;
+  width: auto;
+  margin-top: -6px;
+  margin-left: 4px;
+}
+
+.danil-xs {
+  margin-left: 10px;
+}
+
+#cross-md {
+  height: 22px;
+  width: auto;
+  margin-top: -22px;
+  margin-right: 308px;
+  float: right;
+}
+
+.trailer {
+	float: left;
+	font-family: 'Quantico', sans-serif;
+  font-size: 20px;
+	color: #0BDA2A;
+}
+
+.trailer-xs {
+	font-family: 'Quantico', sans-serif;
+  font-size: 20px;
+  text-align: center;
+	color: #0BDA2A;
+}
+
+.rip {
+  display: inline !important;
+}
+
+.sponsors img {
+  border-radius: 3px;
+}
